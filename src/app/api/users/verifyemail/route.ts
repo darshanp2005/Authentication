@@ -2,10 +2,7 @@ import {connect} from "@/dbConfig/dbConfig";
 import { NextRequest, NextResponse } from "next/server";
 import User from "@/models/userModel";
 
-
-
 connect()
-
 
 export async function POST(request: NextRequest){
 
@@ -27,7 +24,7 @@ export async function POST(request: NextRequest){
         await user.save();
         
         return NextResponse.json({
-            message: "Email verified successfully",
+            message: "Email verified successfully😀",
             success: true
         })
 
