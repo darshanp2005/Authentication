@@ -1,7 +1,7 @@
 # nxtjs authentication system Signup, login 
 
 Flow
-![alt text](image.png)
+![alt text](flow.png)
 
 ## Tech Stack
 Nextjs ,typescript, mongodb, mailtrap
