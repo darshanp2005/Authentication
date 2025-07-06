@@ -7,4 +7,5 @@ Flow
 Nextjs ,typescript, mongodb, mailtrap
 
 # run the development server:
+npm i
 npm run dev
